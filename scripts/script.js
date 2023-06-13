@@ -9,7 +9,6 @@ function getApiGitHub() {
         }
 
         let data = await res.json();
-        console.log(data);
         
         data.map(item => {
             let project = document.createElement('div');
