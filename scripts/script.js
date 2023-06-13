@@ -18,7 +18,7 @@ function getApiGitHub() {
                 <div class="projects">
                     <div>
                         <h4 class="title">${item.name}</h4>
-                        <span class="date-create">${Intl.DateTimeFormat('pt-BR').format(new Date(item.created_at))}</span>
+                        <span class="date-create">${Intl.DateTimeFormat('pt-br').format(new Date(item.created_at))}</span>
                     </div>
                     
                     <div>
